@@ -12,27 +12,7 @@
 <body>
     <div class="container">
         <h1>Presentación de imagenes tipo Google.</h1>
-        <h2>Bestias mitologicas</h2>
-        
-        <!--
-        <ul class="gridder">
-            <li class="gridder-list" data-griddercontent="#gridder-content-0">
-                <img src="img/manticora.jpg" alt="">
-            </li>
-        </ul>
-        <div id="gridder-content-0" class="gridder-content">
-             <div class="row">
-                 <div class="col-sm-6">
-                     <img src="img/manticora.jpg" clss="img-responsive" alt="">
-                 </div>
-                 <div class="col-sm-6">
-                     <h2>Manticora</h2>
-                     <p>La mantícora es una legendaria criatura persa similar a la esfinge egipcia. Tiene el cuerpo de un león, una cabeza humana con tres filas de dientes afilados y a veces alas de murciélago. Otros aspectos de la criatura varían de una historia a otra.</p>
-                 </div>
-             </div>
-        </div>
-        -->
-
+        <h2>Tecnologías de la web.</h2>
         <ul class="gridder">
             <?php for ($i = 0; $i < count($datos); $i++) { 
                         $d = explode("||", $datos[$i]);

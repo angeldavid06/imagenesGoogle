@@ -2,29 +2,25 @@
     function contenido() {
         $datos = array();
 
-        $datos[0] = "img/manticora.jpg"."||".
-                    "Mantícora"."||".
-                    "La mantícora es una legendaria criatura persa similar a la esfinge egipcia. Tiene el cuerpo de un león, una cabeza humana con tres filas de dientes afilados y a veces alas de murcielago. Otros aspectos de la criatura varían de una historia a otra.
-                    ";
+        $datos[0] = "img/img-0.svg"."||".
+                    "HTML."."||".
+                    "Es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto.";
 
-        $datos[1] = "img/dragon.jpg"."||".
-                    "Dragon"."||".
-                    "Los dragones son inmensos reptiles alados pertenecientes a una de las razas más antiguas que existe en la mitología. Son famosos por su enorme figura, de unos treinta metros, y por sus cualidades mágicas.
-                    ";
+        $datos[1] = "img/img-1.svg"."||".
+                    "CSS."."||".
+                    "En español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.";
 
-        $datos[2] = "img/centauro.jpg"."||".
-                    "Centauro"."||".
-                    "En la mitología griega, el centauro es una criatura con la cabeza, los brazos y el torso de un humano y el cuerpo y las patas de un caballo. Las versiones femeninas reciben el nombre de centáurides.
-                    ";
+        $datos[2] = "img/img-2.svg"."||".
+                    "Javascript."."||".
+                    "Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.";
 
-        $datos[3] = "img/grifo.jpg"."||".
-                    "Grifo"."||".
-                    "El grifo es una criatura mitolígica, cuya parte superior es la de un águila gigante, con plumas doradas, afilado pico y poderosas garras. La parte inferior es la de un león, con pelaje amarillo, musculosas patas y cola larga.
-                    ";
+        $datos[3] = "img/img-3.svg"."||".
+                    "PHP."."||".
+                    "Es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group.​";
 
-        $datos[4] = "img/quimera.jpg"."||".
-                    "Quimera"."||".
-                    "En la mitología griega, Quimera era un monstruo híbrido, hija de Tifón y de Equidna, que vagaba por las regiones de Asia Menor aterrorizando a las poblaciones y engullendo animales, y hasta rebaños enteros.";
+        $datos[4] = "img/img-4.svg"."||".
+                    "Angular JS."."||".
+                    "Es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.";
         
         return $datos;
     }

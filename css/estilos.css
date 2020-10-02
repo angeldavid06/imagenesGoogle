@@ -1,3 +1,41 @@
-.fa {
-    border-radius: 50px;
+body {
+    background-color: rgba(0,0,0,0.05);
+}
+
+.container h1 {
+    padding: 50px 0px;
+}
+
+.container h2 {
+    padding: 0px 0px 20px 0px;
+}
+
+.gridder-navigation {
+    margin: 10px 0px 0px 10px;
+}
+
+.gridder-navigation a {
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(20,20,20,0.2);
+}
+
+.gridder-navigation a:hover {
+    background-color: rgba(30,30,30,0.9);
+}
+
+.gridder-navigation a:not(:last-child) {
+    margin-right: 15px;
+}
+
+.gridder-show {
+    box-shadow: none;
+}
+
+.gridder-expanded-content .row {
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px rgba(30,30,30,.8);
 }
